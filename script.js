@@ -284,7 +284,7 @@ class Game {
       const userResult =
         (userThrow + userModNumber) % this.dice[userDiceIndex].faces.length;
       console.log(
-        `The result is ${userThrow} + ${userModNumber} = ${userResult} (mod ${this.dice[userDiceIndex].faces.length}).`
+        o`The result is ${userThrow} + ${userModNumber} = ${userResult} (mod ${this.dice[userDiceIndex].faces.length}).`
       );
 
       const userRoll = this.dice[userDiceIndex].faces[userResult];
